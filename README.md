@@ -2,28 +2,28 @@
 
 Run CrewAI locally for free!
 
-# Steps
+## Steps
 
-- Install Ollma
+- Install Ollama
 - Create custom local LLM made for CrewAI
-  - Run the ./scripts/create_model.sh script
+  - Run the `./scripts/create_model.sh` script
     - Make this script executable by running `chmod +x ./scripts/create_model.sh`
       or copy and paste commands into terminal
   - This will create a model file in the models directory
-  - To change models, edit the create_model.sh script
+  - To change models, edit the `create_model.sh` script
 - Verify you are using local llm
   - `cat ~/.ollama/logs/server.log`
 
-# Tips
+## Tips
 
 - If using multiple models,
 
-# Warnings & Recommendations
+## Warnings & Recommendations
 
 - Ollama doesn't work with Async tasks and a bunch of newer CrewAI features yet.
 - Lose context. Be very explicit in tasks. Not generic.
 
-# Resources
+## Resources
 
 - Want to find out which LLMs support which features in CrewAI? Here's the link for you:
   - https://python.langchain.com/docs/integrations/llms/
@@ -31,3 +31,8 @@ Run CrewAI locally for free!
   - https://github.com/ollama/ollama/blob/main/docs/modelfile.md
 - Check out CrewAI's instructions for working with Ollama and running LLMs locally:
   - https://docs.crewai.com/how-to/LLM-Connections/#connect-crewai-to-llms
+
+## Video Preview
+
+Check out this video for additional insights:  
+[Watch on YouTube](https://youtu.be/SvIoMf7nW2s)
